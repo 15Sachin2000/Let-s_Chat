@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body{
+	background: #ebf3da;
+	font-family: 'Roboto', sans-serif;
+}
+.card{
+	width: 75%;
+	border: 1px solid darkgrey;
+	background: #f5dfec;
+	border-radius: 15px;
+    height:80vh;
+    margin:auto;
+}
+.left{
+    float:left;
+    clear:both;
+}
+.right{
+    float:right;
+    clear:both;
+}
+.adiv{
+	background: #04CB28;
+	border-radius: 15px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	font-size: 26px;
+	height: 66px;
+}
+.mar{
+    display: block;
+    clear: both;
+    /* margin-top: 5px; */
+    width: 75%;
+    border: 1px solid darkgrey;
+    border-radius: 15px;
+    margin: 3px auto auto auto;
+}
+.chat{
+    /* position: absolute;
+    left:0; */
+    /* border: none; */
+	background: #ccf2d4;
+	border: 1px solid #E7E7E9;
+	font-size: 15px;
+	border-radius: 20px;
+	margin-bottom: 10px;
+}
+.send{
+	display: block;
+	margin:2px auto auto auto;
+	width:75%
+	/* text-align: center; */
+}
+
+#form{
+	text-align: center;
+}
+#sm{
+	border: 1px solid darkgrey;
+    border-radius: 15px;
+	padding-left: 15px;
+	width:93%;
+	height:40px;
+}
+.qw{
+    /* position: absolute;
+    right:0; */
+	background:#d6f3f9;
+    border: 1px solid #E7E7E9;
+	font-size: 15px;
+	border-radius: 20px;
+	margin-bottom: 10px;
+}
+.myvideo img{
+	border-radius: 20px
+}
+.dot{
+	font-weight: bold;
+}
+.form-control{
+	border-radius: 12px;
+	border: 1px solid #F0F0F0;
+	font-size: 8px;
+}
+.form-control:focus{
+	box-shadow: none;
+	}
+.form-control::placeholder{
+	font-size: 8px;
+	color: #C4C4C4;
+}
+.float{
+	float:right;
+}
+#chat{
+	overflow-y:auto;
+}
